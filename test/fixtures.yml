@@ -822,13 +822,20 @@ payscout:
 payu_in:
   key: KEY
   salt: SALT
-
+                
 # Working credentials, no need to replace
 payu_latam:
   merchant_id: "508029"
   account_id: "512322"
   api_login: "pRRXKOl8ikMmt9u"
   api_key: "4Vj8eK4rloUd272L48hsrarnUA"
+
+# Working credentials, no need to replace
+payu_polska:
+  merchant_pos_id: "426602"
+  client_id: "426602"
+  client_secret: "00a61b9910bace7b86f066330f2adb05"
+  notify_url: "test.com"
 
 payway:
   username:
